@@ -8,6 +8,9 @@ class Calculator:
 
     def _addition(self):
         print(int(self.num1) + int(self.num2))
+    
+    def _subtraction(self):
+        print(int(self.num1) - int(self.num2))
 
 p1 = Calculator()
 p1.multiplication()
